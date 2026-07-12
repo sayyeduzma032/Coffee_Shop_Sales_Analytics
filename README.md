@@ -1,192 +1,145 @@
-# ☕ Coffee Shop Sales Analytics
+☕ Coffee Shop Sales Analytics
 
-## 📌 Project Overview
+📌 Project Overview
 
-This project presents an end-to-end retail sales analytics solution for a coffee shop chain using **Excel, MySQL, and Power BI**. The objective is to transform raw transactional data into meaningful business insights that help stakeholders understand sales performance, customer purchasing trends, product performance, and store operations.
+This project presents an end-to-end retail sales analytics solution for a coffee shop chain using Excel, MySQL, and Power BI. The objective is to transform raw transactional data into meaningful business insights that help stakeholders understand sales performance, customer purchasing trends, product performance, and store operations.
 
 The project demonstrates the complete analytics workflow, from data cleaning and SQL-based business analysis to designing an interactive Power BI dashboard for data-driven decision-making.
 
----
+📂 Dataset
 
-## 📂 Dataset
+The dataset contains over 149,000 coffee shop transactions with information such as:
 
-The dataset contains over **149,000 coffee shop transactions** with information such as:
 
-- Transaction ID
-- Transaction Date
-- Transaction Time
-- Quantity Sold
-- Store Location
-- Product Category
-- Product Type
-- Product Detail
-- Unit Price
-- Revenue
+Transaction ID
+Transaction Date
+Transaction Time
+Quantity Sold
+Store Location
+Product Category
+Product Type
+Product Detail
+Unit Price
+Revenue
 
----
 
-## 🛠 Tools & Technologies
+🛠 Tools & Technologies
 
-- Microsoft Excel
-- MySQL
-- Power BI
-- Git & GitHub
 
----
+Microsoft Excel
+MySQL
+Power BI
+Git & GitHub
 
-# 📈 Project Workflow
 
-### Step 1 – Data Cleaning (Excel)
+📈 Project Workflow
 
-- Removed duplicate records
-- Checked for missing values
-- Verified data consistency
-- Prepared the dataset for SQL analysis
+Step 1 – Data Cleaning (Excel)
 
----
 
-### Step 2 – SQL Analysis (MySQL)
+Removed duplicate records
+Checked for missing values
+Verified data consistency
+Prepared the dataset for SQL analysis
 
-Imported the cleaned dataset into MySQL and answered key business questions, including:
 
-- Total revenue generated
-- Total number of transactions
-- Highest revenue-generating store
-- Highest revenue-generating product category
-- Top 10 products by revenue
-- Peak revenue hour
-- Highest revenue day of the week
-- Average Order Value (AOV)
-- Store selling the highest quantity
-- Product generating the least revenue
+Step 2 – SQL Analysis (MySQL)
+Imported the cleaned dataset into MySQL and used it to answer key business questions around revenue, store performance, product performance, and order timing (see Key Findings below).
 
----
-
-### Step 3 – Power BI Dashboard
-
+Step 3 – Power BI Dashboard
 Designed an interactive dashboard to visualize key business metrics and sales trends using KPI cards, charts, and slicers.
 
----
-
-# 📊 Dashboard Highlights
+📊 Dashboard Highlights
 
 The dashboard includes:
 
-- Total Revenue
-- Total Orders
-- Total Quantity Sold
-- Average Order Value
-- Average Unit Price
-- Monthly Revenue Trend
-- Revenue by Product Category
-- Revenue by Store Location
-- Top 10 Products by Revenue
-- Revenue by Day of Week
-- Orders by Hour
-- Interactive Month Filter
 
----
+Total Revenue
+Total Orders
+Total Quantity Sold
+Average Order Value
+Average Unit Price
+Monthly Revenue Trend
+Revenue by Product Category
+Revenue by Store Location
+Top 10 Products by Revenue
+Revenue by Day of Week
+Orders by Hour
+Interactive Month Filter
 
-# 💼 Business Questions Answered
 
-- How much total revenue has the coffee shop generated?
-- How many customer transactions have been completed?
-- Which store generates the highest revenue?
-- Which product category contributes the most revenue?
-- Which products generate the highest revenue?
-- During which hour does the coffee shop generate maximum sales?
-- Which day of the week produces the highest revenue?
-- What is the Average Order Value (AOV)?
-- Which store sells the highest quantity of products?
-- Which product contributes the least revenue?
+💼 Key Findings
 
----
 
-# 📁 Project Structure
+Total revenue: $698.81K across 149K transactions, with 214K units sold
+Top-performing store: Hell's Kitchen, generating $236.51K (33.8% of total revenue)
+Average Order Value: $4.69 | Average Unit Price: $3.38
+Top revenue category: Coffee, followed by Tea — together driving the majority of total revenue
+Peak revenue day: Sunday ($101.68K), with weekday revenue relatively even across the rest of the week
+Peak order volume: Concentrated in the 8–10 AM window, tapering off sharply after 12 PM
+Revenue trend: Grew steadily from February through June, nearly doubling over the period
+
+
+📁 Project Structure
 
 Coffee-Shop-Sales-Analytics
-
 │
-
 ├── Dataset
-
-│ └── coffee_shop_sales.csv
-
+│   └── coffee_shop_sales.csv
 │
-
 ├── Excel
-
-│ └── Coffee_Shop_Sales_Cleaning.xlsx
-
+│   └── Coffee_Shop_Sales_Cleaning.xlsx
 │
-
 ├── SQL
-
-│ └── Coffee_Shop_Sales_Queries.sql
-
+│   └── Coffee_Shop_Sales_Queries.sql
 │
-
 ├── Power BI
-
-│ └── Coffee_Shop_Sales_Dashboard.pbix
-
+│   └── Coffee_Shop_Sales_Dashboard.pbix
 │
-
 ├── Images
-
-│ └── Dashboard.png
-
+│   └── Dashboard.png
 │
-
 └── README.md
 
----
+🚀 How to Run the Project
 
-# 🚀 How to Run the Project
-
-### Excel
-
+Excel
 Open the dataset and review the cleaning process.
 
-### MySQL
+MySQL
 
-- Create a database.
-- Import the dataset.
-- Execute the SQL queries.
 
-### Power BI
+Create a database.
+Import the dataset.
+Execute the SQL queries.
 
-- Open the `.pbix` file.
-- Refresh the data source if required.
-- Explore the dashboard using the month slicer.
 
----
+Power BI
 
-# 🎯 Skills Demonstrated
 
-- Data Cleaning
-- SQL (MySQL)
-- Data Aggregation
-- Business Analytics
-- KPI Development
-- Power BI Dashboard Design
-- Data Visualization
-- Retail Sales Analytics
-- Business Reporting
-- Data Storytelling
+Open the .pbix file.
+Refresh the data source if required.
+Explore the dashboard using the month slicer.
 
----
 
-# 📷 Dashboard Preview
+🎯 Skills Demonstrated
 
-> Dashboard screenshot available in the **Images** folder.
 
----
+Data Cleaning
+SQL (MySQL)
+Data Aggregation
+Business Analytics
+KPI Development
+Power BI Dashboard Design
+Data Visualization
+Data Storytelling
 
-# 👩‍💻 Author
 
-**Uzma Sayyed**
+📷 Dashboard Preview
 
-Aspiring Data Analyst
+Dashboard screenshot available in the Images folder.
 
-**SQL • Power BI • Excel • Python • Data Visualization**
+👩‍💻 Author
+
+Uzma Sayyed
+SQL • Power BI • Excel • Python • Data Visualization
